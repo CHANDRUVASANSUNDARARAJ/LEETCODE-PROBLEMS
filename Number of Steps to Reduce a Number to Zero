@@ -7,9 +7,9 @@ class Solution {
                 count++;
             }
             else {
-                a=a-1;
-                a=a;
-                count++;
+                // a=a-1;
+                // a=a;
+                // count++;
             }
         }
         return count;
