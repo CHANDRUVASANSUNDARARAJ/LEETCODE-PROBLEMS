@@ -8,6 +8,7 @@ class Solution {
             }
             else {
                 a=a-1;
+                a=a;
                 count++;
             }
         }
