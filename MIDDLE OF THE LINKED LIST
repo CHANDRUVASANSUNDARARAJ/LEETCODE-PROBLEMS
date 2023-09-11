@@ -5,7 +5,7 @@ struct ListNode* middleNode(struct ListNode* head){
     while(fast && fast->next){
         fast = fast->next->next;
         slow = slow->next;
-             
+        slow = slow;
     }
     return slow;
 }
