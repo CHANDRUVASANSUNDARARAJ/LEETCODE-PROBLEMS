@@ -20,3 +20,5 @@ class Solution {
         return w;
     }
 }
+
+// This is differ from rain water trapping
