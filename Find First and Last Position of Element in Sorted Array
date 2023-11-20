@@ -1,3 +1,12 @@
+/*
+ * Filename: d:\Test\LEETCODE-PROBLEMS-DATASTRUCTURES-AND-ALGORITHMS\Find First and Last Position of Element in Sorted Array
+ * Path: d:\Test\LEETCODE-PROBLEMS-DATASTRUCTURES-AND-ALGORITHMS
+ * Created Date: Sunday, November 19th 2023, 10:31:12 pm
+ * Author:  CHANDRUVASAN S
+ * 
+ * Copyright (c) 2023 Trinom Digital Pvt Ltd
+ */
+
 class Solution {
 public:
     vector<int> searchRange(vector<int>& v, int t) {
@@ -17,3 +26,5 @@ public:
         return {ans[0],ans[v2-1]};
     }
 };
+
+//Store the index in vector and return the min and element of the vector
