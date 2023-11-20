@@ -1,3 +1,12 @@
+/*
+ * Filename: d:\Test\LEETCODE-PROBLEMS-DATASTRUCTURES-AND-ALGORITHMS\Number of Steps to Reduce a Number to Zero
+ * Path: d:\Test\LEETCODE-PROBLEMS-DATASTRUCTURES-AND-ALGORITHMS
+ * Created Date: Sunday, November 19th 2023, 10:39:02 pm
+ * Author:  CHANDRUVASAN S
+ * 
+ * Copyright (c) 2023 Trinom Digital Pvt Ltd
+ */
+
 class Solution {
     public int numberOfSteps(int a) {
         int count = 0;
@@ -14,3 +23,5 @@ class Solution {
         return count;
     }
 }
+
+//By using reminder operator
