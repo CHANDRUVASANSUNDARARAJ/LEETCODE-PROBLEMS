@@ -24,4 +24,4 @@ class Solution {
     }
 }
 
-//By using reminder operator
+//By using reminder operator we can reduce the numbere to divisable
