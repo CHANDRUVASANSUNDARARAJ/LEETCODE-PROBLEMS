@@ -18,10 +18,9 @@ class Solution {
             else {
                 a=a-1;
                 count++;
+                count = count;
             }
         }
         return count;
     }
 }
-
-//By using reminder operator we can reduce the numbere to divisable
